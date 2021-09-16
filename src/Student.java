@@ -69,7 +69,7 @@ public class Student {
         lophoc.removeStudent("20021319");
 
         String gr1 = lophoc.studentsByGroup();
-        for(int i = 0; i < gr.length(); i++){
+        for(int i = 0; i < gr1.length(); i++){
             System.out.print(gr1.charAt(i));
         }
         //System.out.println(lophoc.sameGroup(sv1,sv2));
