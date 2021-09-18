@@ -34,7 +34,7 @@ public class Student {
     public void setName(String n) {
         this.name = n;
     }
-
+    // thiếu phương thức get/set thuộc tính id, group, email
     public String getInfor() {
         return this.name + "-" + this.id + "-" + this.group + "-" + this.email + "\n";
     }
